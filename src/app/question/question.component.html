@@ -9,11 +9,19 @@
       </small>
     </p>
   </div>
-  <div class="list-group list-group-flush">
+  <ul class="list-group list-group-flush">
     @for (answear of question.answears; track $index) {
-      <button type="button" class="list-group-item list-group-item-action" [class.list-group-item-primary]="answear.isCorrect">
-        {{ answear.text }}
-      </button>
+      <li class="list-group-item list-group-item-action">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" [id]="question.id + $index">
+          <label class="form-check-label" [for]="question.id + $index">
+            {{ answear.text }}
+          </label>
+        </div>
+        
+        
+      </li>
     }
-  </div>
+  </ul>
+
 </div>

@@ -11,6 +11,7 @@ export class QuestionBuilderService {
   build(rawQuestion: any): Question {
     const question = new Question();
 
+    question.id = crypto.randomUUID();
     question.text = rawQuestion.text;
     question.answears = [];
     for (const rawAnswear of rawQuestion.answears) {
