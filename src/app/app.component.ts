@@ -13,11 +13,11 @@ import { questions as rawQuestions } from '../../public/questions';
 export class AppComponent {
   questionsBuilder = inject(QuestionsBuilderService);
   
-  title = 'ExamPreparationApp';
+  title = 'sep-g1-exam-preparation';
 
   constructor() {
     const questions = this.questionsBuilder.build(rawQuestions); 
   
-    
+
   }
 }

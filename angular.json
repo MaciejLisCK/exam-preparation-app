@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ExamPreparationApp": {
+    "sep-g1-exam-preparation": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ExamPreparationApp:build:production"
+              "buildTarget": "sep-g1-exam-preparation:build:production"
             },
             "development": {
-              "buildTarget": "ExamPreparationApp:build:development"
+              "buildTarget": "sep-g1-exam-preparation:build:development"
             }
           },
           "defaultConfiguration": "development"
