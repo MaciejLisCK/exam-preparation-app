@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, Input } from '@angular/core';
 
 @Component({
   selector: 'app-question',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './question.component.scss'
 })
 export class QuestionComponent {
-
+  question:any = input();
 }

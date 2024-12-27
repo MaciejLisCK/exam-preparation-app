@@ -1,5 +1,5 @@
-@for (item of [ 1, 2, 3 ]; track item) {
-  <app-question></app-question>
+@for (question of questions; track question) {
+  <app-question [question]="question"></app-question>
 } @empty {
   <div>There are no items.</div>
 }

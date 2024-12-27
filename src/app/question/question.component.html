@@ -1,13 +1,14 @@
 <div class="card">
   <div class="card-body">
     <p class="card-text">
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      {{ question().question }}
     </p>
   </div>
   <div class="list-group list-group-flush list-group-numbered">
-    <button type="button" class="list-group-item list-group-item-action">A second button item</button>
-    <button type="button" class="list-group-item list-group-item-action">A third button item</button>
-    <button type="button" class="list-group-item list-group-item-action">A fourth button item</button>
-    <button type="button" class="list-group-item list-group-item-action">A disabled button item</button>
+    @for (answear of question().answears; track $index) {
+      <button type="button" class="list-group-item list-group-item-action" [class.list-group-item-primary]="answear.isCorrect">
+        {{ answear.text }}
+      </button>
+    }
   </div>
 </div>
