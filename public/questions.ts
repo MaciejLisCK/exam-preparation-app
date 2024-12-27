@@ -1,6 +1,6 @@
 export const questions = [
   {
-    "question": "Od czego zależeć może skala obrażeń w przypadku porażenia przez prąd?",
+    "text": "Od czego zależeć może skala obrażeń w przypadku porażenia przez prąd?",
     "answears": [
       { "text": "grubość naskórka" },
       { "text": "wilgotność powietrza" },
@@ -8,7 +8,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Do pośredniego działania prądu na organizm człowieka zalicza się:",
+    "text": "Do pośredniego działania prądu na organizm człowieka zalicza się:",
     "answears": [
       { "text": "zagrożenie pożarowe" },
       { "text": "uraz mechaniczny spowodowany utratą równowagi na skutek porażenia i upadkiem z wysokości", "isCorrect": true },
@@ -16,7 +16,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Jakie zagrożenie wiąże się z elektrycznością statyczną?",
+    "text": "Jakie zagrożenie wiąże się z elektrycznością statyczną?",
     "answears": [
       { "text": "może doprowadzić do przeskoku iskry, co wiąże się z zagrożeniem wybuchem", "isCorrect": true },
       { "text": "może doprowadzić do zapłonu materiałów nieprzewodzących" },
@@ -24,7 +24,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Jakim kolorem oznaczona jest izolacja przewodu ochronnego PE?",
+    "text": "Jakim kolorem oznaczona jest izolacja przewodu ochronnego PE?",
     "answears": [
       { "text": "żółto-zielony", "isCorrect": true },
       { "text": "niebieski" },
@@ -32,7 +32,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Kiedy należy wycofać urządzenie elektryczne z eksploatacji?",
+    "text": "Kiedy należy wycofać urządzenie elektryczne z eksploatacji?",
     "answears": [
       { "text": "po zaprzestaniu produkcji" },
       { "text": "po uszkodzeniu tabliczki znamionowej" },
@@ -40,7 +40,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Którą klasę ochronności prezentuje widoczny obok piktogram?",
+    "text": "Którą klasę ochronności prezentuje widoczny obok piktogram?",
     "answears": [
       { "text": "klasę I" },
       { "text": "klasę II", "isCorrect": true },
@@ -48,7 +48,7 @@ export const questions = [
     ]
   },
   {
-    "question": "W jaki sposób realizuje się ochronę przed dotykiem bezpośrednim (ochronę podstawową) jeżeli chodzi o techniczne środki ochrony przeciwporażeniowej?",
+    "text": "W jaki sposób realizuje się ochronę przed dotykiem bezpośrednim (ochronę podstawową) jeżeli chodzi o techniczne środki ochrony przeciwporażeniowej?",
     "answears": [
       { "text": "przez odpowiednio dobrana wkładkę bezpiecznikową" },
       { "text": "przez stosowanie separacji elektrycznej." },
@@ -56,7 +56,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Czym między innymi charakteryzuje się układ sieciowy TN-C?",
+    "text": "Czym między innymi charakteryzuje się układ sieciowy TN-C?",
     "answears": [
       { "text": "zacisk ochronny PE połączony jest z ziemią" },
       { "text": "funkcję przewodów ochronnych i neutralnych pełni jeden przewód ochronno-neutralny (PEN)", "isCorrect": true },
@@ -64,7 +64,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Stopień ochrony IP20 oznacza między innymi:",
+    "text": "Stopień ochrony IP20 oznacza między innymi:",
     "answears": [
       { "text": "brak ochrony przed działaniem wody", "isCorrect": true },
       { "text": "ochronę całkowicie pyłoszczelną" },
@@ -72,7 +72,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Jakich środków gaśniczych należy używać do gaszenia urządzeń elektrycznych będących pod napięciem?",
+    "text": "Jakich środków gaśniczych należy używać do gaszenia urządzeń elektrycznych będących pod napięciem?",
     "answears": [
       { "text": "gaśnicy pianowej" },
       { "text": "gaśnicy proszkowej lub śniegowej", "isCorrect": true },
@@ -80,7 +80,7 @@ export const questions = [
     ]
   },
   {
-    "question": "W którym akcie prawnym znajdziemy informację na temat prac wymagających polecenia pisemnego?",
+    "text": "W którym akcie prawnym znajdziemy informację na temat prac wymagających polecenia pisemnego?",
     "answears": [
       { "text": "Ustawa z dn. 07 lipca 1994 r. Prawo budowlane" },
       { "text": "Rozporządzenie Ministra Energii z dnia 28 sierpnia 2019 r. w sprawie bezpieczeństwa i higieny pracy przy urządzeniach energetycznych", "isCorrect": true },
@@ -88,7 +88,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Czy wykonując prace eksploatacyjne przy urządzeniach elektroenergetycznych wyłączonych spod napięcia konieczne jest zapewnienie polecenia pisemnego?",
+    "text": "Czy wykonując prace eksploatacyjne przy urządzeniach elektroenergetycznych wyłączonych spod napięcia konieczne jest zapewnienie polecenia pisemnego?",
     "answears": [
       { "text": "tak, zawsze" },
       { "text": "nie, polecenie pisemne nie jest wtedy potrzebne" },
@@ -96,7 +96,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Wykonywania jakich prac zabrania się podczas wykonywania ich na polecenie pisemne?",
+    "text": "Wykonywania jakich prac zabrania się podczas wykonywania ich na polecenie pisemne?",
     "answears": [
       { "text": "demontaż obudowy i ocena stanu technicznego" },
       { "text": "zewnętrzna ocena stanu urządzenia bez demontażu osłon", "isCorrect": true },
@@ -104,7 +104,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Z jakiego dokumentu wynikają szczegółowe czasookresy wykonywania prac kontrolno-pomiarowych przy urządzeniach elektrycznych?",
+    "text": "Z jakiego dokumentu wynikają szczegółowe czasookresy wykonywania prac kontrolno-pomiarowych przy urządzeniach elektrycznych?",
     "answears": [
       { "text": "z instrukcji eksploatacji dołączonej przez producenta.", "isCorrect": true },
       { "text": "z Rozporządzeń Ministra Przemysłu i Handlu" },
@@ -112,7 +112,7 @@ export const questions = [
     ]
   },
   {
-    "question": "W jakich warunkach środowiskowych powinny być wykonywane pomiary?",
+    "text": "W jakich warunkach środowiskowych powinny być wykonywane pomiary?",
     "answears": [
       { "text": "w warunkach identycznych lub zbliżonych do warunków normalnej pracy podczas eksploatacji urządzeń lub instalacji.", "isCorrect": true },
       { "text": "w warunkach skrajnie niekorzystnych (wilgotność, temperatura)." },
@@ -120,7 +120,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Co powinien zawierać prawidłowo sporządzony protokół z prac kontrolno-pomiarowych?",
+    "text": "Co powinien zawierać prawidłowo sporządzony protokół z prac kontrolno-pomiarowych?",
     "answears": [
       { "text": "numer i data sporządzenia protokołu, wynik pomiarów, wnioski i zalecenia, spis użytych przyrządów, informacje o uprawnieniach osoby wykonującej pomiary", "isCorrect": true },
       { "text": "wystarczający jest wynik pomiarów wraz z konstruktywnymi wnioskami i zaleceniami" },
@@ -128,7 +128,7 @@ export const questions = [
     ]
   },
   {
-    "question": "Co to jest elektryczność statyczna?",
+    "text": "Co to jest elektryczność statyczna?",
     "answears": [
        { "text": "Rodzaj izolacji elektrycznej" },
        { "text": "Nazwa dla przepływu prądu w obwodzie" },
@@ -137,7 +137,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są metody ochrony przed przepięciami?",
+    "text": "Jakie są metody ochrony przed przepięciami?",
     "answears": [
        { "text": "Przewody ochronne", "isCorrect": true },
        { "text": "Zastosowanie bezpieczników", "isCorrect": true },
@@ -146,7 +146,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe jednostki miary dla mocy elektrycznej?",
+    "text": "Jakie są podstawowe jednostki miary dla mocy elektrycznej?",
     "answears": [
        { "text": "Wat [W]", "isCorrect": true },
        { "text": "Amper [A]" },
@@ -155,7 +155,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest transformator?",
+    "text": "Co to jest transformator?",
     "answears": [
        { "text": "Element elektroniczny zasilający diodę" },
        { "text": "Skrzynka bezpiecznikowa" },
@@ -164,7 +164,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest termistor?",
+    "text": "Co to jest termistor?",
     "answears": [
        { "text": "Element półprzewodnikowy o zmiennej rezystancji w zależności od temperatury", "isCorrect": true },
        { "text": "Nazwa dla diody" },
@@ -173,7 +173,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest prąd stały?",
+    "text": "Co to jest prąd stały?",
     "answears": [
        { "text": "Prąd bez wartości" },
        { "text": "Prąd płynący w jednym kierunku", "isCorrect": true },
@@ -182,7 +182,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są metody kontrolowania prędkości silników elektrycznych?",
+    "text": "Jakie są metody kontrolowania prędkości silników elektrycznych?",
     "answears": [
        { "text": "Dodanie więcej baterii" },
        { "text": "Regulacja napięcia", "isCorrect": true },
@@ -191,7 +191,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe rodzaje przetwornic energii elektrycznej?",
+    "text": "Jakie są podstawowe rodzaje przetwornic energii elektrycznej?",
     "answears": [
        { "text": "Przetwornice energii słonecznej" },
        { "text": "Przetwornice napięcia", "isCorrect": true },
@@ -200,7 +200,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe rodzaje źródeł światła w elektryce?",
+    "text": "Jakie są podstawowe rodzaje źródeł światła w elektryce?",
     "answears": [
        { "text": "Świetlówki", "isCorrect": true },
        { "text": "Żarówki", "isCorrect": true },
@@ -209,7 +209,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Z jakiego materiału mogą być&nbsp;wykonane przewody elektryczne?",
+    "text": "Z jakiego materiału mogą być&nbsp;wykonane przewody elektryczne?",
     "answears": [
        { "text": "Przewody miedziane", "isCorrect": true },
        { "text": "Przewody srebrne" },
@@ -218,7 +218,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są najczęstsze materiały izolacyjne używane w elektryce?",
+    "text": "Jakie są najczęstsze materiały izolacyjne używane w elektryce?",
     "answears": [
        { "text": "Plastik", "isCorrect": true },
        { "text": "Szkło" },
@@ -227,7 +227,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest indukcja elektromagnetyczna?",
+    "text": "Co to jest indukcja elektromagnetyczna?",
     "answears": [
        { "text": "Nazwa dla procesu zaniku pola magnetycznego" },
        { "text": "Zjawisko polegające na wytwarzaniu napięcia w przewodniku w wyniku zmiany pola magnetycznego", "isCorrect": true },
@@ -236,7 +236,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest układ równoległy?",
+    "text": "Co to jest układ równoległy?",
     "answears": [
        { "text": "Układ elektryczny, w którym elementy są połączone równolegle", "isCorrect": true },
        { "text": "Rodzaj diody" },
@@ -245,7 +245,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są najczęstsze typy baterii?",
+    "text": "Jakie są najczęstsze typy baterii?",
     "answears": [
        { "text": "Baterie kwasowe", "isCorrect": true },
        { "text": "Baterie alkaliczne", "isCorrect": true },
@@ -254,7 +254,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe zasady działania czujników ruchu w instalacjach elektrycznych?",
+    "text": "Jakie są podstawowe zasady działania czujników ruchu w instalacjach elektrycznych?",
     "answears": [
        { "text": "Rejestrowanie zmian w polu elektromagnetycznym lub świetlnym", "isCorrect": true },
        { "text": "Rejestrowanie zmian w polu grawitacyjnym" },
@@ -263,7 +263,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest efekt Joule'a?",
+    "text": "Co to jest efekt Joule'a?",
     "answears": [
        { "text": "Nazwa dla prawa Ohma" },
        { "text": "Zjawisko polegające na wydzielaniu się ciepła w przewodnikach przy przepływie prądu", "isCorrect": true },
@@ -272,7 +272,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest transformator izolacyjny?",
+    "text": "Co to jest transformator izolacyjny?",
     "answears": [
        { "text": "Transformator, który zwiększa napięcie" },
        { "text": "Transformator, który zmienia prąd na napięcie" },
@@ -281,7 +281,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe zasady działania przekaźników elektromagnetycznych?",
+    "text": "Jakie są podstawowe zasady działania przekaźników elektromagnetycznych?",
     "answears": [
        { "text": "Zasada refrakcji światła" },
        { "text": "Zasada indukcji elektromagnetycznej" },
@@ -290,7 +290,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe zasady bezpieczeństwa przy pracy na wysokościach w elektroenergetyce?",
+    "text": "Jakie są podstawowe zasady bezpieczeństwa przy pracy na wysokościach w elektroenergetyce?",
     "answears": [
        { "text": "Regularne szkolenia w zakresie bezpieczeństwa", "isCorrect": true },
        { "text": "Praca bez zabezpieczeń" },
@@ -299,7 +299,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe rodzaje silników elektrycznych?",
+    "text": "Jakie są podstawowe rodzaje silników elektrycznych?",
     "answears": [
        { "text": "Silniki prądu stałego", "isCorrect": true },
        { "text": "Silniki zegarowe" },
@@ -308,7 +308,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest prąd zwarciowy?",
+    "text": "Co to jest prąd zwarciowy?",
     "answears": [
        { "text": "Prąd, który nie płynie w obwodzie" },
        { "text": "Nazwa dla prądu stałego" },
@@ -317,7 +317,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest przewodnictwo elektryczne?",
+    "text": "Co to jest przewodnictwo elektryczne?",
     "answears": [
        { "text": "Jednostka mocy" },
        { "text": "Zdolność materiału do przewodzenia prądu elektrycznego", "isCorrect": true },
@@ -326,7 +326,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jaki kolor ma przewód ochronny?",
+    "text": "Jaki kolor ma przewód ochronny?",
     "answears": [
        { "text": "Żółty", "isCorrect": true },
        { "text": "Niebieski" },
@@ -335,7 +335,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest przemiennik?",
+    "text": "Co to jest przemiennik?",
     "answears": [
        { "text": "Typ kondensatora" },
        { "text": "Urządzenie zabezpieczające przed przepięciami" },
@@ -344,7 +344,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są rodzaje badań elektrycznych?",
+    "text": "Jakie są rodzaje badań elektrycznych?",
     "answears": [
        { "text": "Badania kosmiczne" },
        { "text": "Badania terenowe", "isCorrect": true },
@@ -353,7 +353,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są metody pomiaru napięcia elektrycznego?",
+    "text": "Jakie są metody pomiaru napięcia elektrycznego?",
     "answears": [
        { "text": "Woltomierz", "isCorrect": true },
        { "text": "Ohmmetr" },
@@ -362,7 +362,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe typy układów elektroenergetycznych?",
+    "text": "Jakie są podstawowe typy układów elektroenergetycznych?",
     "answears": [
        { "text": "Układy dystrybucyjne", "isCorrect": true },
        { "text": "Układy wodociągowe" },
@@ -371,7 +371,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe zastosowania elektromagnesów?",
+    "text": "Jakie są podstawowe zastosowania elektromagnesów?",
     "answears": [
        { "text": "Przekaźniki elektromagnetyczne", "isCorrect": true },
        { "text": "Silniki elektryczne", "isCorrect": true },
@@ -380,7 +380,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jaki kolor ma przewód neutralny?",
+    "text": "Jaki kolor ma przewód neutralny?",
     "answears": [
        { "text": "Brązowy" },
        { "text": "Zielony" },
@@ -389,7 +389,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest obwód elektryczny?",
+    "text": "Co to jest obwód elektryczny?",
     "answears": [
        { "text": "Przewód wykonany z aluminium" },
        { "text": "Zamknięty tor przepływu prądu", "isCorrect": true },
@@ -398,7 +398,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe rodzaje obwodów elektrycznych?",
+    "text": "Jakie są podstawowe rodzaje obwodów elektrycznych?",
     "answears": [
        { "text": "Obwody szeregowo", "isCorrect": true },
        { "text": "Obwody równoległe", "isCorrect": true },
@@ -407,7 +407,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest falownik?",
+    "text": "Co to jest falownik?",
     "answears": [
        { "text": "Typ kondensatora" },
        { "text": "Rodzaj przewodu elektrycznego" },
@@ -416,7 +416,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest efekt piezoelektryczny?",
+    "text": "Co to jest efekt piezoelektryczny?",
     "answears": [
 { "text": "Zjawisko polegające na powstawaniu napięcia elektrycznego w materiale pod wpływem naprężenia mechanicznego", "isCorrect": true },
        { "text": "Nazwa dla zjawiska magnetycznego" },
@@ -425,7 +425,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest elektroliza?",
+    "text": "Co to jest elektroliza?",
     "answears": [
        { "text": "Nazwa dla procesu izolacji elektrycznej" },
        { "text": "Jednostka mocy" },
@@ -434,7 +434,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest dławik?",
+    "text": "Co to jest dławik?",
     "answears": [
        { "text": "Nazwa dla transformatora" },
        { "text": "Element elektryczny ograniczający prąd w obwodzie", "isCorrect": true },
@@ -443,7 +443,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe zasady działania generatora prądu stałego?",
+    "text": "Jakie są podstawowe zasady działania generatora prądu stałego?",
     "answears": [
        { "text": "Zasada indukcji elektromagnetycznej", "isCorrect": true },
        { "text": "Zasada rezystancji elektrycznej" },
@@ -452,7 +452,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Ile jest praw Kirchhoffa?",
+    "text": "Ile jest praw Kirchhoffa?",
     "answears": [
        { "text": "Jedno prawo Kirchhoffa" },
        { "text": "Dwa prawa Kirchhoffa" },
@@ -461,7 +461,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest impedancja?",
+    "text": "Co to jest impedancja?",
     "answears": [
        { "text": "Jednostka napięcia" },
        { "text": "Złożony opór, który uwzględnia rezystancję i reaktancję", "isCorrect": true },
@@ -470,7 +470,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są zastosowania przemienników częstotliwości?",
+    "text": "Jakie są zastosowania przemienników częstotliwości?",
     "answears": [
        { "text": "Regulacja prędkości silników", "isCorrect": true },
        { "text": "Nie są stosowane w elektryce" },
@@ -479,7 +479,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jaki kolor ma przewód ochronno-neutralny?",
+    "text": "Jaki kolor ma przewód ochronno-neutralny?",
     "answears": [
        { "text": "Zielony i niebieski" },
        { "text": "Żółty i zielony", "isCorrect": true },
@@ -488,7 +488,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest oświetlenie awaryjne?",
+    "text": "Co to jest oświetlenie awaryjne?",
     "answears": [
        { "text": "System zapewniający ochronę przed przeciążeniami" },
        { "text": "Rodzaj diody elektrycznej" },
@@ -497,7 +497,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są podstawowe typy kondensatorów?",
+    "text": "Jakie są podstawowe typy kondensatorów?",
     "answears": [
        { "text": "Kondensatory elektrolityczne", "isCorrect": true },
        { "text": "Kondensatory ceramiczne", "isCorrect": true },
@@ -506,7 +506,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest skuteczne napięcie?",
+    "text": "Co to jest skuteczne napięcie?",
     "answears": [
        { "text": "Napięcie, które nie skutkuje porażeniem prądem", "isCorrect": true },
        { "text": "Napięcie wygenerowane przez baterię" },
@@ -515,7 +515,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest rezystancja?",
+    "text": "Co to jest rezystancja?",
     "answears": [
        { "text": "Opór dla przewodów miedzianych" },
        { "text": "Miara prędkości prądu" },
@@ -524,7 +524,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jaki kolor ma przewód fazowy?",
+    "text": "Jaki kolor ma przewód fazowy?",
     "answears": [
        { "text": "Niebieski" },
        { "text": "Zółty" },
@@ -533,7 +533,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest reaktancja?",
+    "text": "Co to jest reaktancja?",
     "answears": [
        { "text": "Opór dla prądu przemiennego", "isCorrect": true },
        { "text": "Jednostka mocy" },
@@ -542,7 +542,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest dioda?",
+    "text": "Co to jest dioda?",
     "answears": [
        { "text": "Element półprzewodnikowy, który przepuszcza prąd w jednym kierunku", "isCorrect": true },
        { "text": "Opornik" },
@@ -551,7 +551,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są zastosowania silników elektrycznych?",
+    "text": "Jakie są zastosowania silników elektrycznych?",
     "answears": [
        { "text": "Napędzanie pojazdów", "isCorrect": true },
        { "text": "Napędzanie wentylatorów i pomp", "isCorrect": true },
@@ -560,7 +560,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Co to jest układ trójfazowy?",
+    "text": "Co to jest układ trójfazowy?",
     "answears": [
        { "text": "Nazwa dla układu jednofazowego" },
        { "text": "Typ diody elektrycznej" },
@@ -569,7 +569,7 @@ export const questions = [
     ]
  },
  {
-    "question": "Jakie są zasady bezpiecznego obchodzenia się z elektrycznością?",
+    "text": "Jakie są zasady bezpiecznego obchodzenia się z elektrycznością?",
     "answears": [
        { "text": "Nigdy nie pracuj na mokro", "isCorrect": true },
        { "text": "Wyłączaj urządzenia przed naprawą", "isCorrect": true },

@@ -1,4 +1,4 @@
-@for (question of questions; track question) {
+@for (question of questions; track $index) {
   <app-question [question]="question"></app-question>
 } @empty {
   <div>There are no items.</div>
