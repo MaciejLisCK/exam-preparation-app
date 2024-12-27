@@ -1,8 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
-import { QuestionsBuilderService } from './questions-builder.service';
-import { questions as rawQuestions } from '../../public/questions';
+import { Store } from '@ngxs/store';
+import { LoadQuestionsAction } from './questions/questions.actions';
 
 @Component({
   selector: 'app-root',
@@ -11,13 +11,11 @@ import { questions as rawQuestions } from '../../public/questions';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  questionsBuilder = inject(QuestionsBuilderService);
-  
+  store = inject(Store);
+
   title = 'sep-g1-exam-preparation';
 
   constructor() {
-    const questions = this.questionsBuilder.build(rawQuestions); 
-  
-
+    this.store.dispatch(new LoadQuestionsAction());
   }
 }

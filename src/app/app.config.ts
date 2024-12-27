@@ -8,13 +8,14 @@ import { withNgxsLoggerPlugin } from '@ngxs/logger-plugin';
 import { withNgxsRouterPlugin } from '@ngxs/router-plugin';
 import { withNgxsStoragePlugin } from '@ngxs/storage-plugin';
 import { provideStore } from '@ngxs/store';
+import { QuestionsState } from './questions/questions.state';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     provideStore(
-      [],
+      [ QuestionsState ],
       withNgxsReduxDevtoolsPlugin(),
       withNgxsFormPlugin(),
       withNgxsLoggerPlugin(),

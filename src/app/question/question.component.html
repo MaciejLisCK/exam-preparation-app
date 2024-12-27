@@ -1,16 +1,16 @@
 <div class="card">
   <div class="card-body">
     <p class="card-text">
-      {{ question().text }}
+      {{ question.text }}
     </p>
-    <p class="card-text">
+    <p class="card-text" *ngIf="question.isMultipleChoice">
       <small class="text-muted">
-        Zaznacz x odpowiedzi
+        Zaznacz {{ question.correctAnsewarsCount }} odpowiedzi
       </small>
     </p>
   </div>
   <div class="list-group list-group-flush">
-    @for (answear of question().answears; track $index) {
+    @for (answear of question.answears; track $index) {
       <button type="button" class="list-group-item list-group-item-action" [class.list-group-item-primary]="answear.isCorrect">
         {{ answear.text }}
       </button>
