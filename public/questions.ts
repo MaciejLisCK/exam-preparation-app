@@ -126,5 +126,455 @@ export const questions = [
       { "text": "wystarczający jest wynik pomiarów wraz z konstruktywnymi wnioskami i zaleceniami" },
       { "text": "wystarczający jest wynik pomiarów i czytelny podpis wykonującego " }
     ]
-  }
+  },
+  {
+    "question": "Co to jest elektryczność statyczna?",
+    "answears": [
+       { "text": "Rodzaj izolacji elektrycznej" },
+       { "text": "Nazwa dla przepływu prądu w obwodzie" },
+       { "text": "Typ prądu elektrycznego" },
+       { "text": "Zjawisko polegające na gromadzeniu się ładunków na powierzchniach ciał", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są metody ochrony przed przepięciami?",
+    "answears": [
+       { "text": "Przewody ochronne", "isCorrect": true },
+       { "text": "Zastosowanie bezpieczników", "isCorrect": true },
+       { "text": "Uziemienie", "isCorrect": true },
+       { "text": "Korzystanie z instrukcji" },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe jednostki miary dla mocy elektrycznej?",
+    "answears": [
+       { "text": "Wat [W]", "isCorrect": true },
+       { "text": "Amper [A]" },
+       { "text": "Kilowat [kW]", "isCorrect": true },
+       { "text": "Joule [J]" },
+    ]
+ },
+ {
+    "question": "Co to jest transformator?",
+    "answears": [
+       { "text": "Element elektroniczny zasilający diodę" },
+       { "text": "Skrzynka bezpiecznikowa" },
+       { "text": "Urządzenie mierzące prąd elektryczny" },
+       { "text": "Urządzenie służące do zmiany napięcia zmiennego", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest termistor?",
+    "answears": [
+       { "text": "Element półprzewodnikowy o zmiennej rezystancji w zależności od temperatury", "isCorrect": true },
+       { "text": "Nazwa dla diody" },
+       { "text": "Typ transformatora" },
+       { "text": "Jednostka napięcia" },
+    ]
+ },
+ {
+    "question": "Co to jest prąd stały?",
+    "answears": [
+       { "text": "Prąd bez wartości" },
+       { "text": "Prąd płynący w jednym kierunku", "isCorrect": true },
+       { "text": "Prąd, który zmienia swoje kierunki" },
+       { "text": "Prąd o zmiennych wartościach" },
+    ]
+ },
+ {
+    "question": "Jakie są metody kontrolowania prędkości silników elektrycznych?",
+    "answears": [
+       { "text": "Dodanie więcej baterii" },
+       { "text": "Regulacja napięcia", "isCorrect": true },
+       { "text": "Regulacja częstotliwości", "isCorrect": true },
+       { "text": "Ustawienie większej liczby przewodów", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe rodzaje przetwornic energii elektrycznej?",
+    "answears": [
+       { "text": "Przetwornice energii słonecznej" },
+       { "text": "Przetwornice napięcia", "isCorrect": true },
+       { "text": "Przetwornice częstotliwości", "isCorrect": true },
+       { "text": "Przetwornice prądu", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe rodzaje źródeł światła w elektryce?",
+    "answears": [
+       { "text": "Świetlówki", "isCorrect": true },
+       { "text": "Żarówki", "isCorrect": true },
+       { "text": "Diody LED", "isCorrect": true },
+       { "text": "Świece" },
+    ]
+ },
+ {
+    "question": "Z jakiego materiału mogą być&nbsp;wykonane przewody elektryczne?",
+    "answears": [
+       { "text": "Przewody miedziane", "isCorrect": true },
+       { "text": "Przewody srebrne" },
+       { "text": "Przewody żelazne" },
+       { "text": "Przewody aluminiowe", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są najczęstsze materiały izolacyjne używane w elektryce?",
+    "answears": [
+       { "text": "Plastik", "isCorrect": true },
+       { "text": "Szkło" },
+       { "text": "Guma", "isCorrect": true },
+       { "text": "Stal" },
+    ]
+ },
+ {
+    "question": "Co to jest indukcja elektromagnetyczna?",
+    "answears": [
+       { "text": "Nazwa dla procesu zaniku pola magnetycznego" },
+       { "text": "Zjawisko polegające na wytwarzaniu napięcia w przewodniku w wyniku zmiany pola magnetycznego", "isCorrect": true },
+       { "text": "Typ prądu elektrycznego" },
+       { "text": "Stała fizyczna" },
+    ]
+ },
+ {
+    "question": "Co to jest układ równoległy?",
+    "answears": [
+       { "text": "Układ elektryczny, w którym elementy są połączone równolegle", "isCorrect": true },
+       { "text": "Rodzaj diody" },
+       { "text": "Nazwa dla układu szeregowego" },
+       { "text": "Typ transformatora" },
+    ]
+ },
+ {
+    "question": "Jakie są najczęstsze typy baterii?",
+    "answears": [
+       { "text": "Baterie kwasowe", "isCorrect": true },
+       { "text": "Baterie alkaliczne", "isCorrect": true },
+       { "text": "Baterie jądrowe" },
+       { "text": "Baterie gazowe" },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe zasady działania czujników ruchu w instalacjach elektrycznych?",
+    "answears": [
+       { "text": "Rejestrowanie zmian w polu elektromagnetycznym lub świetlnym", "isCorrect": true },
+       { "text": "Rejestrowanie zmian w polu grawitacyjnym" },
+       { "text": "Rejestrowanie zmian w polu termicznym" },
+       { "text": "Rejestrowanie zmian w polu magnetycznym" },
+    ]
+ },
+ {
+    "question": "Co to jest efekt Joule'a?",
+    "answears": [
+       { "text": "Nazwa dla prawa Ohma" },
+       { "text": "Zjawisko polegające na wydzielaniu się ciepła w przewodnikach przy przepływie prądu", "isCorrect": true },
+       { "text": "Zjawisko magnetyczne" },
+       { "text": "Nazwa dla prawa Kirchhoffa" },
+    ]
+ },
+ {
+    "question": "Co to jest transformator izolacyjny?",
+    "answears": [
+       { "text": "Transformator, który zwiększa napięcie" },
+       { "text": "Transformator, który zmienia prąd na napięcie" },
+       { "text": "Nazwa dla układu regulacyjnego" },
+       { "text": "Transformator, który separuje elektrycznie dwa obwody", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe zasady działania przekaźników elektromagnetycznych?",
+    "answears": [
+       { "text": "Zasada refrakcji światła" },
+       { "text": "Zasada indukcji elektromagnetycznej" },
+       { "text": "Zasada przewodnictwa elektrycznego" },
+       { "text": "Zasada przyciągania i odpychania magnetycznego", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe zasady bezpieczeństwa przy pracy na wysokościach w elektroenergetyce?",
+    "answears": [
+       { "text": "Regularne szkolenia w zakresie bezpieczeństwa", "isCorrect": true },
+       { "text": "Praca bez zabezpieczeń" },
+       { "text": "Zapewnienie odpowiedniego oświetlenia", "isCorrect": true },
+       { "text": "Używanie odpowiednich środków ochrony osobistej", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe rodzaje silników elektrycznych?",
+    "answears": [
+       { "text": "Silniki prądu stałego", "isCorrect": true },
+       { "text": "Silniki zegarowe" },
+       { "text": "Silniki prądu przemiennego", "isCorrect": true },
+       { "text": "Silniki synchroniczne", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest prąd zwarciowy?",
+    "answears": [
+       { "text": "Prąd, który nie płynie w obwodzie" },
+       { "text": "Nazwa dla prądu stałego" },
+       { "text": "Prąd, który płynie w obwodzie w momencie zwarcia", "isCorrect": true },
+       { "text": "Nazwa dla prądu przemiennego" },
+    ]
+ },
+ {
+    "question": "Co to jest przewodnictwo elektryczne?",
+    "answears": [
+       { "text": "Jednostka mocy" },
+       { "text": "Zdolność materiału do przewodzenia prądu elektrycznego", "isCorrect": true },
+       { "text": "Rodzaj transformatora" },
+       { "text": "Nazwa dla prawa Ohma" },
+    ]
+ },
+ {
+    "question": "Jaki kolor ma przewód ochronny?",
+    "answears": [
+       { "text": "Żółty", "isCorrect": true },
+       { "text": "Niebieski" },
+       { "text": "Zielony" },
+       { "text": "Brązowy" },
+    ]
+ },
+ {
+    "question": "Co to jest przemiennik?",
+    "answears": [
+       { "text": "Typ kondensatora" },
+       { "text": "Urządzenie zabezpieczające przed przepięciami" },
+       { "text": "Rodzaj transformatora" },
+       { "text": "Urzadzenie, które zmienia prąd stały na przemienny", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są rodzaje badań elektrycznych?",
+    "answears": [
+       { "text": "Badania kosmiczne" },
+       { "text": "Badania terenowe", "isCorrect": true },
+       { "text": "Badania diagnostyczne", "isCorrect": true },
+       { "text": "Badania laboratoryjne", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są metody pomiaru napięcia elektrycznego?",
+    "answears": [
+       { "text": "Woltomierz", "isCorrect": true },
+       { "text": "Ohmmetr" },
+       { "text": "Amperomierz" },
+       { "text": "Miernik napięcia", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe typy układów elektroenergetycznych?",
+    "answears": [
+       { "text": "Układy dystrybucyjne", "isCorrect": true },
+       { "text": "Układy wodociągowe" },
+       { "text": "Układy oświetleniowe", "isCorrect": true },
+       { "text": "Układy przesyłowe", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe zastosowania elektromagnesów?",
+    "answears": [
+       { "text": "Przekaźniki elektromagnetyczne", "isCorrect": true },
+       { "text": "Silniki elektryczne", "isCorrect": true },
+       { "text": "Lodówki" },
+       { "text": "Separatory magnetyczne", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jaki kolor ma przewód neutralny?",
+    "answears": [
+       { "text": "Brązowy" },
+       { "text": "Zielony" },
+       { "text": "Niebieski", "isCorrect": true },
+       { "text": "Żółty" },
+    ]
+ },
+ {
+    "question": "Co to jest obwód elektryczny?",
+    "answears": [
+       { "text": "Przewód wykonany z aluminium" },
+       { "text": "Zamknięty tor przepływu prądu", "isCorrect": true },
+       { "text": "Zbiór przypadkowych przewodników" },
+       { "text": "Mechaniczne połączenie przewodów" },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe rodzaje obwodów elektrycznych?",
+    "answears": [
+       { "text": "Obwody szeregowo", "isCorrect": true },
+       { "text": "Obwody równoległe", "isCorrect": true },
+       { "text": "Obwody mieszane", "isCorrect": true },
+       { "text": "Obwody spiralne" },
+    ]
+ },
+ {
+    "question": "Co to jest falownik?",
+    "answears": [
+       { "text": "Typ kondensatora" },
+       { "text": "Rodzaj przewodu elektrycznego" },
+       { "text": "Urządzenie elektroniczne, które zmienia prąd stały na przemienny", "isCorrect": true },
+       { "text": "Nazwa dla transformatora" },
+    ]
+ },
+ {
+    "question": "Co to jest efekt piezoelektryczny?",
+    "answears": [
+{ "text": "Zjawisko polegające na powstawaniu napięcia elektrycznego w materiale pod wpływem naprężenia mechanicznego", "isCorrect": true },
+       { "text": "Nazwa dla zjawiska magnetycznego" },
+       { "text": "Typ prądu elektrycznego" },
+       { "text": "Jednostka miary dla pojemności" },
+    ]
+ },
+ {
+    "question": "Co to jest elektroliza?",
+    "answears": [
+       { "text": "Nazwa dla procesu izolacji elektrycznej" },
+       { "text": "Jednostka mocy" },
+       { "text": "Typ przewodnictwa elektrycznego" },
+       { "text": "Proces rozkładu związków chemicznych pod wpływem prądu elektrycznego", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest dławik?",
+    "answears": [
+       { "text": "Nazwa dla transformatora" },
+       { "text": "Element elektryczny ograniczający prąd w obwodzie", "isCorrect": true },
+       { "text": "Nazwa dla baterii" },
+       { "text": "Typ przewodu elektrycznego" },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe zasady działania generatora prądu stałego?",
+    "answears": [
+       { "text": "Zasada indukcji elektromagnetycznej", "isCorrect": true },
+       { "text": "Zasada rezystancji elektrycznej" },
+       { "text": "Zasada grawitacji" },
+       { "text": "Zasada magnetyzmu" },
+    ]
+ },
+ {
+    "question": "Ile jest praw Kirchhoffa?",
+    "answears": [
+       { "text": "Jedno prawo Kirchhoffa" },
+       { "text": "Dwa prawa Kirchhoffa" },
+       { "text": "Cztery prawa Kirchhoffa" },
+       { "text": "Trzy prawa Kirchhoffa", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest impedancja?",
+    "answears": [
+       { "text": "Jednostka napięcia" },
+       { "text": "Złożony opór, który uwzględnia rezystancję i reaktancję", "isCorrect": true },
+       { "text": "Stała fizyczna" },
+       { "text": "Nazwa dla prądu przemiennego" },
+    ]
+ },
+ {
+    "question": "Jakie są zastosowania przemienników częstotliwości?",
+    "answears": [
+       { "text": "Regulacja prędkości silników", "isCorrect": true },
+       { "text": "Nie są stosowane w elektryce" },
+       { "text": "Sterowanie temperaturą", "isCorrect": true },
+       { "text": "Regulacja jasności oświetlenia", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jaki kolor ma przewód ochronno-neutralny?",
+    "answears": [
+       { "text": "Zielony i niebieski" },
+       { "text": "Żółty i zielony", "isCorrect": true },
+       { "text": "Niebieski i czarny" },
+       { "text": "Żółty i czerwony" },
+    ]
+ },
+ {
+    "question": "Co to jest oświetlenie awaryjne?",
+    "answears": [
+       { "text": "System zapewniający ochronę przed przeciążeniami" },
+       { "text": "Rodzaj diody elektrycznej" },
+       { "text": "System zapewniający oświetlenie w sytuacjach awaryjnych lub po odcięciu zasilania", "isCorrect": true },
+       { "text": "Typ kondensatora" },
+    ]
+ },
+ {
+    "question": "Jakie są podstawowe typy kondensatorów?",
+    "answears": [
+       { "text": "Kondensatory elektrolityczne", "isCorrect": true },
+       { "text": "Kondensatory ceramiczne", "isCorrect": true },
+       { "text": "Kondensatory metaliczne" },
+       { "text": "Kondensatory foliowe", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest skuteczne napięcie?",
+    "answears": [
+       { "text": "Napięcie, które nie skutkuje porażeniem prądem", "isCorrect": true },
+       { "text": "Napięcie wygenerowane przez baterię" },
+       { "text": "Wartość napięcia, które spowoduje taką samą moc w rezystorze", "isCorrect": true },
+       { "text": "Maksymalne napięcie w obwodzie" },
+    ]
+ },
+ {
+    "question": "Co to jest rezystancja?",
+    "answears": [
+       { "text": "Opór dla przewodów miedzianych" },
+       { "text": "Miara prędkości prądu" },
+       { "text": "Jednostka napięcia" },
+       { "text": "Właściwość materiału do ograniczania przepływu prądu", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jaki kolor ma przewód fazowy?",
+    "answears": [
+       { "text": "Niebieski" },
+       { "text": "Zółty" },
+       { "text": "Brązowy", "isCorrect": true },
+       { "text": "Czarny", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest reaktancja?",
+    "answears": [
+       { "text": "Opór dla prądu przemiennego", "isCorrect": true },
+       { "text": "Jednostka mocy" },
+       { "text": "Nazwa dla prawa Ohma" },
+       { "text": "Stała fizyczna" },
+    ]
+ },
+ {
+    "question": "Co to jest dioda?",
+    "answears": [
+       { "text": "Element półprzewodnikowy, który przepuszcza prąd w jednym kierunku", "isCorrect": true },
+       { "text": "Opornik" },
+       { "text": "Bateria" },
+       { "text": "Element magnetyczny" },
+    ]
+ },
+ {
+    "question": "Jakie są zastosowania silników elektrycznych?",
+    "answears": [
+       { "text": "Napędzanie pojazdów", "isCorrect": true },
+       { "text": "Napędzanie wentylatorów i pomp", "isCorrect": true },
+       { "text": "Napędzanie kosiarki do trawy" },
+       { "text": "Napędzanie maszyn", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Co to jest układ trójfazowy?",
+    "answears": [
+       { "text": "Nazwa dla układu jednofazowego" },
+       { "text": "Typ diody elektrycznej" },
+       { "text": "Rodzaj transformatora" },
+       { "text": "System zasilania składający się z trzech przewodów fazowych", "isCorrect": true },
+    ]
+ },
+ {
+    "question": "Jakie są zasady bezpiecznego obchodzenia się z elektrycznością?",
+    "answears": [
+       { "text": "Nigdy nie pracuj na mokro", "isCorrect": true },
+       { "text": "Wyłączaj urządzenia przed naprawą", "isCorrect": true },
+       { "text": "Nie używaj uszkodzonych kabli", "isCorrect": true },
+       { "text": "Pracuj przy wyłączonych bezpiecznikach" },
+    ]
+ }
 ]
