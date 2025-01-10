@@ -13,7 +13,7 @@ import { LoadQuestionsAction } from './questions/questions.actions';
 export class AppComponent {
   store = inject(Store);
 
-  title = 'sep-g1-exam-preparation';
+  title = 'SEP grupa g1';
 
   constructor() {
     this.store.dispatch(new LoadQuestionsAction());
